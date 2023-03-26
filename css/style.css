@@ -60,7 +60,7 @@ body {
   }
   #liner::before {
     color: #39ff14;
-    content: "Welcome@Guest:~$";
+    content: "welcome@guest:~$";
   }
   @keyframes show {
     from {
