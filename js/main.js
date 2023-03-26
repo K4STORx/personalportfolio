@@ -87,6 +87,9 @@ function commander(cmd) {
     case "propertiesmove":
       loopLines(propertiesmove, "margin", 80);
       break;
+    case "projectf":
+      loopLines(projectf, "margin", 80);
+      break;
   }
 }
 
