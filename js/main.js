@@ -9,6 +9,7 @@ var pw = false;
 let pwd = false;
 var commands = [];
 
+
 setTimeout(function() {
   loopLines(banner, "", 80);
   textarea.focus();
@@ -87,8 +88,8 @@ function commander(cmd) {
     case "propertiesmove":
       loopLines(propertiesmove, "margin", 80);
       break;
-    case "projectf":
-      loopLines(projectf, "margin", 80);
+    case "winchestercpa":
+      loopLines(winchestercpa, "margin", 80);
       break;
   }
 }

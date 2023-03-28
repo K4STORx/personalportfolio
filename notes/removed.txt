@@ -1,6 +1,0 @@
-removed CSS:
-color2
-error
-
-other removed:
-history commands

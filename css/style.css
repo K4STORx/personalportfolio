@@ -118,3 +118,9 @@ body {
   a:focus {
     outline: 0;
   }
+
+  .proptitle{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #0f6100;
+  }

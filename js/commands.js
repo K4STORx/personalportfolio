@@ -48,10 +48,8 @@ current = [
   "<br>",
   ">input project name for more information",
   "<br>",
-  "propertiesmove                    college capstone",
+  'propertiesmove                   college capstone',
   "winchestercpa                     accountant portfolio",
-  "yoga site                         yoga instructors website",
-  "veterinarianorganization          public newssite for vets",
   "<br>"
 ];
 
@@ -70,26 +68,23 @@ credits = [
 ];
 
 
-
-
-
 //project pages
 propertiesmove = [
   "<br>",
-  "name: propertiesmove",
-  "type: website",
-  "description:",
-  "contribution: project teamlead",
-  'link: <a href ="https://www.propertiesmove.com/" target="_blank" rel="noopener noreferrer">[propertiesmove.com]</a>',
+  '<span class="proptitle">name:</span> propertiesmove',
+  '<span class="proptitle">type:</span> website',
+  '<span class="proptitle">description:</span> a user-friendly public website that enables property owners to list <br>their houses for rent or sale for a timeframe, and allows prospective buyers <br>to easily search and contact them.',
+  '<span class="proptitle">contribution:</span> as the team lead for the capstone project, i successfully supervised <br>and coordinated the development process, ensuring timely completion, maintaining <br>regular communication with the client, and providing guidance to the team throughout <br>the entire project.',
+  '<span class="proptitle">link:</span> <a href ="https://www.propertiesmove.com/" target="_blank" rel="noopener noreferrer">[propertiesmove.com]</a>',
   "<br>"
 ]
 
-
-//easter eggs
-projectf = [
-  'getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead',
-  'getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead',
-  'getoutofmyhead getoutofmyhead getoutofmyhead <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" rel="noopener noreferrer">getoutofmyhead</a> getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead',
-  'getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead',
-  'getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead getoutofmyhead'
+winchestercpa = [
+  "<br>",
+  '<span class="proptitle">name:</span> winchestercpa',
+  '<span class="proptitle">type:</span> website',
+  '<span class="proptitle">description:</span> professional and informative personal website for an accounting and <br>consulting company based in Winchester, Virginia, showcasing their services and expertise.',
+  '<span class="proptitle">contribution:</span> redesigned and optimized a one-page website to enhance its modernity <br>and cleanliness.',
+  '<span class="proptitle">link:</span> <a href ="https://www.winchestercpa.com/" target="_blank" rel="noopener noreferrer">[winchestercpa.com]</a>',
+  "<br>"
 ]
