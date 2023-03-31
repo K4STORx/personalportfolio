@@ -54,9 +54,6 @@ function commander(cmd) {
     case "whois":
       loopLines(whois, "margin", 80);
       break;
-    case "current":
-      loopLines(current, "margin", 80);
-      break;
     case "projects":
       loopLines(projects, "margin", 80);
       break;
@@ -64,11 +61,11 @@ function commander(cmd) {
       loopLines(credits, "margin", 80);
       break;
     case "email":
-      addLine('opening <a href="mailto:skylarwjackson2@gmail.com">[skylarwjackson2@gmail.com]</a>...');
+      addLine('opening <a href="mailto:skylarwjackson2@gmail.com">[ skylarwjackson2@gmail.com ]</a>...');
       newTab(email);
       break;
     case "resume":
-      addLine('opening <a href="./resume/SkylarJacksonResume.pdf" target="_blank" rel="noopener noreferrer">[resume]</a>...');
+      addLine('opening <a href="./resume/SkylarJacksonResume.pdf" target="_blank" rel="noopener noreferrer">[ resume ]</a>...');
       newTab('./resume/SkylarJacksonResume.pdf');
       break;
     case "clear":
@@ -78,7 +75,7 @@ function commander(cmd) {
       }, 1);
       break;
     case "linkedin":
-      addLine('opening <a href="https://www.linkedin.com/in/skylarwjackson/" target="_blank" rel="noopener noreferrer">[linkedin]</a>...', 0);
+      addLine('opening <a href="https://www.linkedin.com/in/skylarwjackson/" target="_blank" rel="noopener noreferrer">[ linkedin ]</a>...', 0);
       newTab(linkedin);
       break;
     default:
@@ -125,4 +122,55 @@ function loopLines(name, style, time) {
   name.forEach(function(item, index) {
     addLine(item, style, index * time);
   });
+}
+
+function pushCMD(commandName) {
+  command.innerHTML = commandName;
+  textarea.value = commandName;
+  commands.push(command.innerHTML);
+  git = commands.length;
+  addLine("welcome@guest:~$ " + command.innerHTML, "no-animation", 0);
+  commander(command.innerHTML.toLowerCase());
+  command.innerHTML = "";
+  textarea.value = "";
+}
+
+function whoIsCMD() {
+  pushCMD("whois");
+}
+
+function projectsCMD() {
+  pushCMD("projects");
+}
+
+function linkedinCMD() {
+  pushCMD("linkedin");
+}
+
+function emailCMD() {
+  pushCMD("email");
+}
+
+function resumeCMD() {
+  pushCMD("resume");
+}
+
+function clearCMD() {
+  pushCMD("clear");
+}
+
+function creditsCMD() {
+  pushCMD("credits");
+}
+
+function helpCMD() {
+  pushCMD("help");
+}
+
+function propertiesmoveCMD() {
+  pushCMD("propertiesmove");
+}
+
+function winchestercpaCMD() {
+  pushCMD("winchestercpa");
 }
