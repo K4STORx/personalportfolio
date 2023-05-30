@@ -9,7 +9,6 @@ help = [
   "<a href='#' onClick='emailCMD();'>[ email                    contact through email ]</a>",
   "<a href='#' onClick='resumeCMD();'>[ resume                   resume viewer ]</a>",
   "<a href='#' onClick='clearCMD();'>[ clear                    clears terminal ]</a>",
-  "<a href='#' onClick='creditsCMD();'>[ credits                  site information ]</a>",
   "<br>",
 ];
 
@@ -28,14 +27,6 @@ projects = [
   /** "<a href='#' onClick='winchestercpaCMD();'>[ winchestercpa                     accountant portfolio ]</a>", **/
   "<br>"
 ];
-
-credits = [
-  "<br>",
-  `website was reworked from <a href="https://youtu.be/KtYby2QN0kQ" target="_blank" rel="noopener noreferrer">[ ForrestKnight's idea ]</a>`,
-  'and quinn i guess...',
-  "<br>"
-];
-
 
 //project pages
 propertiesmove = [

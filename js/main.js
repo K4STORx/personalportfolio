@@ -57,9 +57,6 @@ function commander(cmd) {
     case "projects":
       loopLines(projects, "margin", 80);
       break;
-    case "credits":
-      loopLines(credits, "margin", 80);
-      break;
     case "email":
       addLine('opening <a href="mailto:skylarwjackson2@gmail.com">[ skylarwjackson2@gmail.com ]</a>...');
       newTab(email);
@@ -157,10 +154,6 @@ function resumeCMD() {
 
 function clearCMD() {
   pushCMD("clear");
-}
-
-function creditsCMD() {
-  pushCMD("credits");
 }
 
 function helpCMD() {
