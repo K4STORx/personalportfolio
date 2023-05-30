@@ -15,10 +15,9 @@ help = [
 
 whois = [
   "<br>",
-  "owner: sky jackson",
-  "occupation: student at liberty university",
-  "degree: information technology: data networking and security",
-  "(rest not completed...)",
+  "name: skylar jackson",
+  "occupation: graduate with a degree in it networking and security",
+  "interests: computers, self-learning coding skills, website development, "
   "<br>"
 ];
 
@@ -27,7 +26,7 @@ projects = [
   ">input project name for more information",
   "<br>",
   "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone ]</a>",
-  "<a href='#' onClick='winchestercpaCMD();'>[ winchestercpa                     accountant portfolio ]</a>",
+  /** "<a href='#' onClick='winchestercpaCMD();'>[ winchestercpa                     accountant portfolio ]</a>", **/
   "<br>"
 ];
 
@@ -47,10 +46,11 @@ propertiesmove = [
   '<span class="proptitle">description:</span> a user-friendly public website that enables property owners to list <br>their houses for rent or sale for a timeframe, and allows prospective buyers <br>to easily search and contact them.',
   '<span class="proptitle">contribution:</span> as the team lead for the capstone project, i successfully supervised <br>and coordinated the development process, ensuring timely completion, maintaining <br>regular communication with the client, and providing guidance to the team throughout <br>the entire project.',
   '<span class="proptitle">link:</span> <a href ="https://www.propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.com ]</a>',
+  '<span class="proptitle">     - backup link:</span> <a href ="http://web.archive.org/web/20230430222914/https://propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.archive ]</a>',
   "<br>"
 ]
 
-winchestercpa = [
+/**winchestercpa = [
   "<br>",
   '<span class="proptitle">name:</span> winchestercpa',
   '<span class="proptitle">type:</span> website',
@@ -58,7 +58,7 @@ winchestercpa = [
   '<span class="proptitle">contribution:</span> redesigned and optimized a one-page website to enhance its modernity <br>and cleanliness.',
   '<span class="proptitle">link:</span> <a href ="https://www.winchestercpa.com/" target="_blank" rel="noopener noreferrer">[ winchestercpa.com ]</a>',
   "<br>"
-]
+]**/
 
 //custom banner designs for random gen
 banner = [
