@@ -11,7 +11,7 @@ var commands = [];
 
 
 setTimeout(function() {
-  loopLines(banner, "", 80);
+  //loopLines(banner, "", 80);
   textarea.focus();
 }, 100);
 

@@ -18,12 +18,11 @@ whois = [
   "name: skylar jackson",
   "occupation: graduate with a degree in it networking and security",
   "interests: computers, self-learning coding skills, website development, "
-  "<br>"
 ];
 
 projects = [
   "<br>",
-  ">input project name for more information",
+  ">type or click project name for more information",
   "<br>",
   "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone ]</a>",
   /** "<a href='#' onClick='winchestercpaCMD();'>[ winchestercpa                     accountant portfolio ]</a>", **/
@@ -43,10 +42,11 @@ propertiesmove = [
   "<br>",
   '<span class="proptitle">name:</span> propertiesmove',
   '<span class="proptitle">type:</span> website',
+  '<span class="proptitle">timeframe:</span> aug 18 2022 - may 6 2023',
   '<span class="proptitle">description:</span> a user-friendly public website that enables property owners to list <br>their houses for rent or sale for a timeframe, and allows prospective buyers <br>to easily search and contact them.',
   '<span class="proptitle">contribution:</span> as the team lead for the capstone project, i successfully supervised <br>and coordinated the development process, ensuring timely completion, maintaining <br>regular communication with the client, and providing guidance to the team throughout <br>the entire project.',
   '<span class="proptitle">link:</span> <a href ="https://www.propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.com ]</a>',
-  '<span class="proptitle">     - backup link:</span> <a href ="http://web.archive.org/web/20230430222914/https://propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.archive ]</a>',
+  '<span class="proptitle">      >backup link:</span> <a href ="http://web.archive.org/web/20230430222914/https://propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.archive ]</a>',
   "<br>"
 ]
 

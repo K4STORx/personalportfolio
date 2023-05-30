@@ -95,7 +95,7 @@ body {
       width: 100%;
     }
   }
-  .eyes {
+  .specialBanner {
     color: #ffb6c1;
     text-shadow: 0 0 5px #EDAEC0; 
   }
@@ -123,4 +123,9 @@ body {
     font-weight: bolder;
     text-transform: uppercase;
     color: #0f6100;
+  }
+
+  .warning{
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #7cf067;
   }
