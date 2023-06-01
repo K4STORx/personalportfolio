@@ -85,6 +85,9 @@ function commander(cmd) {
     case "winchestercpa":
       loopLines(winchestercpa, "margin", 80);
       break;
+    case "hobbies":
+      loopLines(hobbies, "margin", 80);
+      break;
   }
 }
 
@@ -158,6 +161,10 @@ function clearCMD() {
 
 function helpCMD() {
   pushCMD("help");
+}
+
+function hobbiesCMD() {
+  pushCMD("hobbies");
 }
 
 function propertiesmoveCMD() {

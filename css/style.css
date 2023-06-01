@@ -8,6 +8,8 @@ body {
     background: #1B1B1B;
     font-family: cursor, monospace;
     overflow-x: hidden;
+    width: 100%;
+    font-size: 20px;
   }
   ::selection {
     color: palevioletred;
@@ -127,5 +129,6 @@ body {
 
   .warning{
     text-transform: uppercase;
-    text-shadow: 0 0 2px #7cf067;
+    background-color: red;
+    text-align: center;
   }

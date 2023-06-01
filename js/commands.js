@@ -4,6 +4,7 @@ var email = 'mailto:skylarwjackson2@gmail.com';
 help = [
   "<br>",
   "<a href='#' onClick='whoIsCMD();'>[ whois                    about the creator ]</a>",
+  "<a href='#' onClick='hobbiesCMD();'>[ hobbies                  about interests/hobbies ]</a>",
   "<a href='#' onClick='projectsCMD();'>[ projects                 projects worked on ]</a>",
   "<a href='#' onClick='linkedinCMD();'>[ linkedin                 open linkedin profile ]</a>",
   "<a href='#' onClick='emailCMD();'>[ email                    contact through email ]</a>",
@@ -16,7 +17,8 @@ whois = [
   "<br>",
   "name: skylar jackson",
   "occupation: graduate with a degree in it networking and security",
-  "interests: computers, self-learning coding skills, website development, "
+  "interests: computers, self-learning coding skills, website development,",
+  "<br>"
 ];
 
 projects = [
@@ -25,6 +27,12 @@ projects = [
   "<br>",
   "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone ]</a>",
   /** "<a href='#' onClick='winchestercpaCMD();'>[ winchestercpa                     accountant portfolio ]</a>", **/
+  "<br>"
+];
+
+hobbies = [
+  "<br>",
+  "",
   "<br>"
 ];
 
@@ -41,35 +49,13 @@ propertiesmove = [
   "<br>"
 ]
 
-/**winchestercpa = [
+winchestercpa = [
   "<br>",
   '<span class="proptitle">name:</span> winchestercpa',
   '<span class="proptitle">type:</span> website',
   '<span class="proptitle">description:</span> professional and informative personal website for an accounting and <br>consulting company based in Winchester, Virginia, showcasing their services and expertise.',
   '<span class="proptitle">contribution:</span> redesigned and optimized a one-page website to enhance its modernity <br>and cleanliness.',
   '<span class="proptitle">link:</span> <a href ="https://www.winchestercpa.com/" target="_blank" rel="noopener noreferrer">[ winchestercpa.com ]</a>',
+  '<span class="proptitle">      >backup link:</span> <a href ="#" target="_blank" rel="noopener noreferrer">[ winchestercpa.archive ]</a>',
   "<br>"
-]**/
-
-//custom banner designs for random gen
-banner = [
-  'Console in development',
-  '[■■■■■□□□□□] 50%',
-  '<br>',
-  '<span class="eyes">  ⠤⠤⠤⠤⠤⠤⢤⣄⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⠤⠶⠶⠶⠦⠤⠤⠤⠤⠤⢤⣤⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠀⠀⠀⢀⠄⢂⣠⣭⣭⣕⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⠀⠀⠀⠤⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉</span>',
-  '<span class="eyes">  ⠀⠀⢀⠜⣳⣾⡿⠛⣿⣿⣿⣦⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣍⣀⣦⠦⠄⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠠⣄⣽⣿⠋⠀⡰⢿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⡿⠛⠛⡿⠿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣁⣂⣤⡄⠀⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⢳⣶⣼⣿⠃⠀⢀⠧⠤⢜⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠟⠁⠀⠀⠀⡇⠀⣀⡈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠁⠐⠀⣀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠙⠻⣿⠀⠀⠀⠀⠀⠀⢹⣿⣿⡝⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡿⠋⠀⠀⠀⠀⠠⠃⠁⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⡿⠋⠀⠀</span>',
-  '<span class="eyes">  ⠀⠀⠀⠙⡄⠀⠀⠀⠀⠀⢸⣿⣿⡃⢼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⡏⠉⠉⠻⣿⡿⠋⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠀⠀⠀⢰⠀⠀⠰⡒⠊⠻⠿⠋⠐⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠀⠀⠀⠸⣇⡀⠀⠑⢄⠀⠀⠀⡠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢖⠠⠤⠤⠔⠙⠻⠿⠋⠱⡑⢄⠀⢠⠟⠀⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">  ⠀⠀⠀⠀⠀⠀⠈⠉⠒⠒⠻⠶⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠡⢀⡵⠃⠀⠀⠀⠀⠀⠀⠀</span>',
-  '<span class="eyes">                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠦⣀⠀⠀⠀⠀⠀⢀⣤⡟⠉⠀⠀⠀⠀⠀⠀⠀⠀</span>',
-  '█▀ █▄▀ █▄█     █ ▄▀█ █▀▀ █▄▀ █▀ █▀█ █▄ █<span class="eyes"> ⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠙⠛⠓⠒⠲⠿⢍⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>',
-  "▄█ █ █  █    █▄█ █▀█ █▄▄ █ █ ▄█ █▄█ █ ▀█.DEV",
-  "<br>",
-  "type or click <a href='#' onClick='helpCMD();'>[ help ]</a> for commands.",
-];
+]
