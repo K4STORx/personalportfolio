@@ -4,7 +4,7 @@ var email = 'mailto:skylarwjackson2@gmail.com';
 help = [
   "<br>",
   "<a href='#' onClick='whoIsCMD();'>[ whois                    about the creator ]</a>",
-  "<a href='#' onClick='hobbiesCMD();'>[ hobbies                  about interests/hobbies ]</a>",
+  "<a href='#' onClick='currentCMD();'>[ current                  where am i currently ]</a>",
   "<a href='#' onClick='projectsCMD();'>[ projects                 projects worked on ]</a>",
   "<a href='#' onClick='linkedinCMD();'>[ linkedin                 open linkedin profile ]</a>",
   "<a href='#' onClick='emailCMD();'>[ email                    contact through email ]</a>",
@@ -16,8 +16,8 @@ help = [
 whois = [
   "<br>",
   "name: skylar jackson",
-  "occupation: graduate with a degree in it networking and security",
-  "interests: computers, self-learning coding skills, website development,",
+  "occupation: loading...",
+  "interests: computers, self-learning coding, racing, and more",
   "<br>"
 ];
 
@@ -26,13 +26,14 @@ projects = [
   ">type or click project name for more information",
   "<br>",
   "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone ]</a>",
-  /** "<a href='#' onClick='winchestercpaCMD();'>[ winchestercpa                     accountant portfolio ]</a>", **/
+  "[ new project loading... ]",
   "<br>"
 ];
 
-hobbies = [
+current = [
   "<br>",
-  "",
+  "job has been acquired",
+  "more updates soon...",
   "<br>"
 ];
 

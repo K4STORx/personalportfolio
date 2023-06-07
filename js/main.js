@@ -78,15 +78,12 @@ function commander(cmd) {
     default:
       addLine("command not found.", 100);
       break;
+    case "current":
+      loopLines(current, "margin", 80);
+      break;
     //project lists
     case "propertiesmove":
       loopLines(propertiesmove, "margin", 80);
-      break;
-    case "winchestercpa":
-      loopLines(winchestercpa, "margin", 80);
-      break;
-    case "hobbies":
-      loopLines(hobbies, "margin", 80);
       break;
   }
 }
@@ -163,14 +160,10 @@ function helpCMD() {
   pushCMD("help");
 }
 
-function hobbiesCMD() {
-  pushCMD("hobbies");
+function currentCMD() {
+  pushCMD("current");
 }
 
 function propertiesmoveCMD() {
   pushCMD("propertiesmove");
-}
-
-function winchestercpaCMD() {
-  pushCMD("winchestercpa");
 }
