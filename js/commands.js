@@ -21,6 +21,7 @@ whois = [
 
 projects = [
   "<br>",
+  "<a href='#' onClick='skyjacksondevCMD();'>[ skyjackson.dev                    personal site(current) ]</a>",
   "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone(finished) ]</a>",
   "<a href='#' onClick='simpreraceCMD();'>[ simprerace                        multi-application starter(on hold) ]</a>",
   "[ new project loading... ]",
@@ -54,7 +55,19 @@ simprerace = [
   '<span class="proptitle">type:</span> application',
   '<span class="proptitle">timeframe:</span> june 1 2023 - on hold',
   '<span class="proptitle">language:</span> c#',
-  '<span class="proptitle">description: </span> configurable application that allows a user to open multiple applications <br>in one click. allows for selecting and saving different applications to create multiple <br>different startup options like having a streaming application startup and a sim racing <br>applications startup.',
+  '<span class="proptitle">description:</span> configurable application that allows a user to open multiple applications <br>in one click. allows for selecting and saving different applications to create multiple <br>different startup options like having a streaming application startup and a sim racing <br>applications startup.',
   '<span class="proptitle">link:</span> <a href ="https://github.com/K4STORx/SimPreRace" target="_blank" rel="noopener noreferrer">[ simprerace.private ]</a>',
+  "<br>"
+]
+
+skyjacksondev = [
+  "<br>",
+  '<span class="proptitle">name:</span> skyjackson.dev',
+  '<span class="proptitle">type:</span> website',
+  '<span class="proptitle">timeframe:</span> march 25 2023 - current',
+  '<span class="proptitle">language:</span> javascript / css / html',
+  '<span class="proptitle">description:</span> personal website where i can work on coding in my free time. <br>has projects and what not that i have been apart of that i am able to display publicly. <br>ascii art is not mine, but show my interests.',
+  '<span class="proptitle">link:</span> <a href ="https://skyjackson.dev/" target="_blank" rel="noopener noreferrer">[ skyjackson.dev ]</a>',
+  '<span class="proptitle">      >backup link:</span> <a href ="https://github.com/K4STORx/personalportfolio" target="_blank" rel="noopener noreferrer">[ skyjackson.github ]</a>',
   "<br>"
 ]

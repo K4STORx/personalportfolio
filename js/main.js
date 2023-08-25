@@ -93,6 +93,9 @@ function commander(cmd) {
     case "simprerace":
       loopLines(simprerace, "margin", 80);
       break;
+    case "skyjackson.dev":
+      loopLines(skyjacksondev, "margin", 80);
+      break;
   }
 }
 
@@ -174,4 +177,8 @@ function propertiesmoveCMD() {
 
 function simpreraceCMD() {
   pushCMD("simprerace");
+}
+
+function skyjacksondevCMD() {
+  pushCMD("skyjackson.dev");
 }
