@@ -14,7 +14,7 @@ whois = [
   "<br>",
   '<span class="proptitle">name:</span> skylar jackson',
   '<span class="proptitle">occupation:</span> icom-s field support specialist at vertiv.',
-  '<span class="proptitle">education:</span> bachelors degree in information technology with a specialization in data networking and security <br>from liberty university.',
+  '<span class="proptitle">education:</span> bachelors degree in information technology with a specialization <br>in data networking and security from liberty university.',
   '<span class="proptitle">interests:</span> computers, self-learning coding, racing, and more.',
   "<br>"
 ];
