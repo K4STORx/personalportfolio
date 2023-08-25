@@ -37,8 +37,18 @@ let bdesigns =
           "<span class='specialBanner'>⠀⠀⠀⣿⠟⠁⠈⠉⠁⠀⠀⠀⠀⠀⠀⠀⠙⡿⠿⠏⠿⠃</span><br />",
           "<span class='specialBanner'>⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀</span><br />",
       ]
+  },
+  {
+      "title": "banner3",
+      "design": [
+          "<span class='specialBanner'>⠀⢀⣀⣀⣀⠀⠀⠀⠀⢀⣀⣀⣀⡀</span><br />",
+          "<span class='specialBanner'>⠀⢸MV1⡿⢀⣠⣴⣾⣿⣿⣿⣿⣇⡀⠀⣀ </span><br />",
+          "<span class='specialBanner'>⠀⢸⣿⣿⠟⢋⡙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣿⡿⠓⠒⠒⢶⣤⣄⡀⠀⠀</span><br />",
+          "<span class='specialBanner'>⠀⠸⠿⠇⢰⣿⣿⡆⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⣿⣿⡷⠈⣿⣿⣉⠁⠀</span><br />",
+          "<span class='specialBanner'>⠀⠀⠀⠀⠀⠈⠉⠀⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠀⠈⠉⠁⠀⠈⠉⠉⠀⠀ </span><br />",
+      ]
   }
 ]
-const bran = Math.floor(Math.random() * 2);
+const bran = Math.floor(Math.random() * 3);
 const pickedban = (bdesigns)[bran].design;
 document.getElementById("ranbanner").innerHTML = pickedban.splice(',').join('');

@@ -57,13 +57,12 @@ function commander(cmd) {
     case "projects":
       loopLines(projects, "margin", 80);
       break;
+    case "contact":
+      loopLines(contact, "margin", 80);
+      break;
     case "email":
       addLine('opening <a href="mailto:skylarwjackson2@gmail.com">[ skylarwjackson2@gmail.com ]</a>...');
       newTab(email);
-      break;
-    case "resume":
-      addLine('opening <a href="./resume/SkylarJacksonResume.pdf" target="_blank" rel="noopener noreferrer">[ resume ]</a>...');
-      newTab('./resume/SkylarJacksonResume.pdf');
       break;
     case "clear":
       setTimeout(function() {
@@ -78,12 +77,21 @@ function commander(cmd) {
     default:
       addLine("command not found.", 100);
       break;
-    case "current":
-      loopLines(current, "margin", 80);
-      break;
-    //project lists
+    //propmove
     case "propertiesmove":
       loopLines(propertiesmove, "margin", 80);
+      break;
+    case "propertiesmove.com":
+      addLine('opening <a href="https://propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.com ]</a>...', 0);
+      newTab("https://propertiesmove.com/");
+      break;
+    case "propertiesmove.archive":
+      addLine('opening <a href="http://web.archive.org/web/20230430222914/https://propertiesmove.com/" target="_blank" rel="noopener noreferrer">[ propertiesmove.archive ]</a>...', 0);
+      newTab("http://web.archive.org/web/20230430222914/https://propertiesmove.com/");
+      break;
+    //simprerace
+    case "simprerace":
+      loopLines(simprerace, "margin", 80);
       break;
   }
 }
@@ -148,8 +156,8 @@ function emailCMD() {
   pushCMD("email");
 }
 
-function resumeCMD() {
-  pushCMD("resume");
+function contactCMD() {
+  pushCMD("contact");
 }
 
 function clearCMD() {
@@ -160,10 +168,10 @@ function helpCMD() {
   pushCMD("help");
 }
 
-function currentCMD() {
-  pushCMD("current");
-}
-
 function propertiesmoveCMD() {
   pushCMD("propertiesmove");
+}
+
+function simpreraceCMD() {
+  pushCMD("simprerace");
 }

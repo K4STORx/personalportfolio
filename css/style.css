@@ -127,8 +127,6 @@ body {
     color: #0f6100;
   }
 
-  .warning{
-    text-transform: uppercase;
-    background-color: red;
-    text-align: center;
+  .notes{
+    color: gray;
   }
