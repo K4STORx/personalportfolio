@@ -1,9 +1,0 @@
-name = [
-"<br>",
-"name:",
-"type:",
-"description:",
-"contribution:",
-'link: <a href ="" target="_blank" rel="noopener noreferrer">[link]</a>',
-"<br>"
-]
