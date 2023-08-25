@@ -54,8 +54,7 @@ simprerace = [
   '<span class="proptitle">type:</span> application',
   '<span class="proptitle">timeframe:</span> june 1 2023 - on hold',
   '<span class="proptitle">language:</span> c#',
-  '<span class="proptitle">description:</span> ',
-  '<span class="proptitle">contribution:</span> ',
+  '<span class="proptitle">description: </span> configurable application that allows a user to open multiple applications <br>in one click. allows for selecting and saving different applications to create multiple <br>different startup options like having a streaming application startup and a sim racing <br>applications startup.',
   '<span class="proptitle">link:</span> <a href ="https://github.com/K4STORx/SimPreRace" target="_blank" rel="noopener noreferrer">[ simprerace.private ]</a>',
   "<br>"
 ]
