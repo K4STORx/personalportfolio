@@ -51,4 +51,4 @@ let bdesigns =
 ]
 const bran = Math.floor(Math.random() * 3);
 const pickedban = (bdesigns)[bran].design;
-document.getElementById("ranbanner").innerHTML = pickedban.splice(',').join('');
+document.getElementById("ranbanner").innerHTML = pickedban.splice(',').join('');                                               

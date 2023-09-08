@@ -22,8 +22,9 @@ whois = [
 projects = [
   "<br>",
   "<a href='#' onClick='skyjacksondevCMD();'>[ skyjackson.dev                    personal site(current) ]</a>",
-  "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone(finished) ]</a>",
+  "<a href='#' onClick='bitsandcaffeineCMD();'>[ bitsandcaffeine                   tech and gaming podcast(current) ]</a>",
   "<a href='#' onClick='simpreraceCMD();'>[ simprerace                        multi-application starter(on hold) ]</a>",
+  "<a href='#' onClick='propertiesmoveCMD();'>[ propertiesmove                    college capstone(finished) ]</a>",
   "[ new project loading... ]",
   "<br>"
 ];
@@ -31,6 +32,7 @@ projects = [
 contact = [
   "<br>",
   "<a href='#' onClick='linkedinCMD();'>[ linkedin                 open linkedin profile ]</a>",
+  "<a href='https://www.instagram.com/skyiszero/' target='_blank' rel='noopener noreferrer''>[ instagram                open instagram account ]</a>",
   "<a href='#' onClick='emailCMD();'>[ email                    contact through email ]</a>",
   "<br>"
 ];
@@ -69,5 +71,17 @@ skyjacksondev = [
   '<span class="proptitle">description:</span> personal website where i can work on coding in my free time. <br>has projects and what not that i have been apart of that i am able to display publicly. <br>ascii art is not mine, but show my interests.',
   '<span class="proptitle">link:</span> <a href ="https://skyjackson.dev/" target="_blank" rel="noopener noreferrer">[ skyjackson.dev ]</a>',
   '<span class="proptitle">      >backup link:</span> <a href ="https://github.com/K4STORx/personalportfolio" target="_blank" rel="noopener noreferrer">[ skyjackson.github ]</a>',
+  "<br>"
+]
+
+bitsandcaffeine = [
+  "<br>",
+  '<span class="proptitle">name:</span> bits and caffeine',
+  '<span class="proptitle">type:</span> podcast',
+  '<span class="proptitle">timeframe:</span> september 2 2023 - current',
+  '<span class="proptitle">language:</span> html, css, and idk... english?',
+  "<span class='proptitle'>description:</span> Just two guys, running on caffeine alone, diving into <br />the endless world of games and tech. Each week we take a look at different <br />video games or tech stories that we think are interesting.",
+  '<span class="proptitle">link:</span> <a href ="https://bitsandcaffeine.com/" target="_blank" rel="noopener noreferrer">[ bitsandcaffeine.com ]</a>',
+  '<span class="proptitle">      >backup link:</span> <a href ="https://www.buzzsprout.com/2239192" target="_blank" rel="noopener noreferrer">[ bitsandcaffeine.buzzsprout ]</a>',
   "<br>"
 ]

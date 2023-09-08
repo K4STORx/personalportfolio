@@ -96,6 +96,9 @@ function commander(cmd) {
     case "skyjackson.dev":
       loopLines(skyjacksondev, "margin", 80);
       break;
+    case "bitsandcaffeine":
+      loopLines(bitsandcaffeine, "margin", 80);
+      break;
   }
 }
 
@@ -181,4 +184,8 @@ function simpreraceCMD() {
 
 function skyjacksondevCMD() {
   pushCMD("skyjackson.dev");
+}
+
+function bitsandcaffeineCMD(){
+  pushCMD("bitsandcaffeine");
 }
